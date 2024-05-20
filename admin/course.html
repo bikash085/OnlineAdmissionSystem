@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Course</title>
+
+<link href="../bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<script src="../bootstrap/bootstrap.min.js"></script>
+<script src="../bootstrap/jquery.min.js"></script>
+
+</head>
+
+<body>
+<h1 align="center">Enter Course Details</h1>
+<div class="row">
+<div class="col-sm-3">
+</div>
+<div class="col-sm-6">
+<form name="f1" id="f1" method="post" action="course.php">
+  <table  border="0" align="center" class="table-striped">
+ 
+    <tr>
+      <td>Course ID</td>
+      <td height="50"><input type="text" name="courseid" id="courseid" class="form-control" required="required" placeholder="Enter Course ID"/></td>
+    </tr>
+  
+    <tr>
+      <td>Course </td>
+      <td height="50"><input type="text" name="coursename" id="coursename" class="form-control" required="required" placeholder="Enter Course"/></td>
+    </tr>
+    <tr>
+      <td>Programme</td>
+      <td height="50"><input type="text" name="programme" id="programme" class="form-control" required="required" placeholder="Enter Programme"/></td>
+    </tr>
+    <tr>
+      <td>Total seats</td>
+      <td height="50"><input type="text" name="tseats" id="tseats" class="form-control" required="required" placeholder="Enter Total Seats"/></td>
+    </tr>
+    <tr>
+      <td>Open category</td>
+      <td height="50"><input type="text" name="open" id="ocat" class="form-control" required="required" placeholder="Enter Open Category Seats"/></td>
+    </tr>
+    <tr>
+      <td>OBC</td>
+      <td height="50"><input type="text" name="obc" id="obc" class="form-control" required="required" placeholder="Enter OBC Sategory Seats"/></td>
+    </tr>
+    <tr>
+      <td>SC</td>
+      <td height="50"><input type="text" name="sc" id="sc" class="form-control" required="required" placeholder="Enter SC category seats"/></td>
+    </tr>
+    <tr>
+      <td>ST</td>
+      <td height="50"><input type="text" name="st" id="st" class="form-control" required="required" placeholder="Enter ST Category seats"/></td>
+    </tr>
+    <tr>
+      <td>Course Duration</td>
+      <td height="50"><input type="text" name="courseduration" id="courseduration" class="form-control" required="required" placeholder="Enter Course Duration" /></td>
+    </tr>
+    <tr>
+      <td>Eligibility Criteria</td>
+      <td height="50"><input type="text" name="criteria" id="criteria" class="form-control" required="required" placeholder="Enter Eligibility Criteria"/></td>
+    </tr>
+   
+  </table>
+  <center><input type="submit" name="button" id="button" value="Submit" class="btn-success"/></center>
+  
+ </form> 
+</div>
+<div class="col-sm-3">
+</div>
+</div>
+
+</body>
+</html>
